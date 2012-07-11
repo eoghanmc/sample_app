@@ -1,0 +1,203 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"ssror",
+				"Set Syntax: Ruby on Rails"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/controllers/application_controller.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/models/micropost.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/controllers/users_controller.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/models/user.rb",
+		"/Users/eoghanmc/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/eoghanmc/Library/Application Support/Sublime Text 2/Packages/User/Ruby on Rails.sublime-settings",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/controllers/microposts_controller.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/config/routes.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/views/users/index.html.erb",
+		"/Users/eoghanmc/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/eoghanmc/Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-settings",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/Gemfile",
+		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/.gitignore",
+		"/Users/eoghanmc/Desktop/Everyface/web/everyface_app/.gitignore",
+		"/Users/eoghanmc/Desktop/Everyface/web/everyface_app/Gemfile"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"user_c",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"micro",
+				"app/models/micropost.rb"
+			],
+			[
+				"user.",
+				"app/models/user.rb"
+			],
+			[
+				"mi",
+				"app/models/micropost.rb"
+			],
+			[
+				"mic",
+				"app/controllers/microposts_controller.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"inde",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"users_c",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
