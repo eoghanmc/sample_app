@@ -3,15 +3,55 @@
 	{
 		"selected_items":
 		[
+			[
+				"tray",
+				"tray_icon"
+			],
+			[
+				"exit",
+				"exititem"
+			],
+			[
+				"cap",
+				"captureitem"
+			],
+			[
+				"ca",
+				"captureitem"
+			],
+			[
+				"te",
+				"text_field"
+			],
+			[
+				"article",
+				"article_id"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/eoghanmc/Desktop/Everyface/desktop/example.rb",
+			"file": "app/helpers/application_helper.rb",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 245,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/about.html.erb",
+			"settings":
+			{
+				"buffer_size": 304,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,16 +59,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 107.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"ssRsp",
-				"Set Syntax: RSpec"
+				"ssr",
+				"Set Syntax: Ruby"
 			],
 			[
-				"ssr",
-				"Set Syntax: HTML (Rails)"
+				"ssRsp",
+				"Set Syntax: RSpec"
 			],
 			[
 				"",
@@ -43,7 +83,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 504.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -60,16 +100,42 @@
 	},
 	"file_history":
 	[
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/spec/requests/static_pages_spec.rb",
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/home.html.erb",
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/layouts/application.html.erb",
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/helpers/application_helper.rb",
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/contact.html.erb",
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/about.html.erb",
-		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/helpers/static_pages_helper.rb",
 		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/config/routes.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/new.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/authors/show.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/config/routes.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/_form.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/_comment.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/index.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/_comment_form.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/show.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/app/controllers/articles_controller.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/models/article.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/models/author.rb",
+		"/Users/eoghanmc/Desktop/Blogger/db/migrate/20120711212610_create_authors.rb",
+		"/Users/eoghanmc/Desktop/Blogger/db/migrate/20120711210342_sorcery_core.rb",
+		"/Users/eoghanmc/Desktop/Blogger/Gemfile",
+		"/Users/eoghanmc/Desktop/Blogger/config/environment.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/controllers/tags_controller.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/tags/show.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/db/migrate/20120711203140_add_paperclip_fields_to_article.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/helpers/articles_helper.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/controllers/comments_controller.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/models/tag.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/models/tagging.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/models/comment.rb",
+		"/Users/eoghanmc/Desktop/Blogger/db/migrate/20120711184554_create_comments.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/layouts/application.html.erb",
+		"/Users/eoghanmc/Desktop/Blogger/db/migrate/20120711171802_create_articles.rb",
+		"/Users/eoghanmc/Desktop/Blogger/app/views/articles/edit.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/layouts/application.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/home.html.erb",
 		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/public/index.html",
 		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/public/hello.html",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/helpers/application_helper.rb",
 		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/Gemfile",
 		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/.gitignore",
 		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/controllers/application_controller.rb",
@@ -104,6 +170,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"salt"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -122,15 +189,46 @@
 	"groups":
 	[
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/eoghanmc/Desktop/Everyface/desktop/example.rb",
+					"file": "app/helpers/application_helper.rb",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 143,
 						"regions":
 						{
 						},
@@ -143,7 +241,33 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/static_pages/about.html.erb",
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -151,11 +275,6 @@
 					},
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -212,28 +331,148 @@
 		"selected_items":
 		[
 			[
-				"appl",
-				"app/helpers/application_helper.rb"
-			],
-			[
-				"static",
-				"app/controllers/static_pages_controller.rb"
+				"about",
+				"app/views/static_pages/about.html.erb"
 			],
 			[
 				"rout",
 				"config/routes.rb"
 			],
 			[
+				"hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"_helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"new",
+				"app/views/articles/new.html.erb"
+			],
+			[
+				"show",
+				"app/views/authors/show.html.erb"
+			],
+			[
+				"author",
+				"app/controllers/authors_controller.rb"
+			],
+			[
+				"auth",
+				"app/models/author.rb"
+			],
+			[
+				"_form",
+				"app/views/authors/_form.html.erb"
+			],
+			[
+				"crea",
+				"db/migrate/20120711212610_create_authors.rb"
+			],
+			[
+				"sor",
+				"db/migrate/20120711210342_sorcery_core.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"env",
+				"config/environment.rb"
+			],
+			[
+				"artic",
+				"app/models/article.rb"
+			],
+			[
+				"add_",
+				"db/migrate/20120711203140_add_paperclip_fields_to_article.rb"
+			],
+			[
+				"tags_c",
+				"app/controllers/tags_controller.rb"
+			],
+			[
+				"inde",
+				"app/views/articles/index.html.erb"
+			],
+			[
+				"article_he",
+				"app/helpers/articles_helper.rb"
+			],
+			[
+				"tag",
+				"app/models/tag.rb"
+			],
+			[
+				"art",
+				"app/models/article.rb"
+			],
+			[
+				"arti",
+				"app/models/article.rb"
+			],
+			[
+				"taggin",
+				"app/models/tagging.rb"
+			],
+			[
+				"tag.",
+				"app/models/tag.rb"
+			],
+			[
+				"_comm",
+				"app/views/articles/_comment.html.erb"
+			],
+			[
+				"comments",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"article.",
+				"app/models/article.rb"
+			],
+			[
+				"create_c",
+				"db/migrate/20120711184554_create_comments.rb"
+			],
+			[
+				"comm",
+				"app/models/comment.rb"
+			],
+			[
 				"app",
 				"app/views/layouts/application.html.erb"
 			],
 			[
-				"abou",
-				"app/views/static_pages/about.html.erb"
+				"articles_",
+				"app/controllers/articles_controller.rb"
 			],
 			[
-				"hom",
-				"app/views/static_pages/home.html.erb"
+				"articl",
+				"app/models/article.rb"
+			],
+			[
+				"cre",
+				"db/migrate/20120711171802_create_articles.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"static",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"abou",
+				"app/views/static_pages/about.html.erb"
 			],
 			[
 				"stati",
@@ -264,10 +503,6 @@
 				".gitignore"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"user_c",
 				"app/controllers/users_controller.rb"
 			],
@@ -296,20 +531,8 @@
 				"app/models/user.rb"
 			],
 			[
-				"inde",
-				"app/views/users/index.html.erb"
-			],
-			[
 				"users_c",
 				"app/controllers/users_controller.rb"
-			],
-			[
-				"",
-				".gitignore"
-			],
-			[
-				"ge",
-				"Gemfile"
 			]
 		],
 		"width": 0.0
