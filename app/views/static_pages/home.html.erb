@@ -8,22 +8,51 @@
 
 	<%= link_to "Sign up now!", signup_path, class: 'btn btn-large btn-primary' %>
 
-	<a class="btn" data-toggle="modal" href="#example" >Launch Modal</a>
+	<a class="btn" data-toggle="modal" href="#signup-form" >Launch Modal</a>
 </div>
 
 <%= link_to image_tag('rails.png', alt: 'Rails'), 'google.com' %>
 
-<div id="example" class="modal hide fade in" style="display: none; ">  
-<div class="modal-header">  
-<a class="close" data-dismiss="modal">×</a>  
-<h3>This is a Modal Heading</h3>  
-</div>  
-<div class="modal-body">  
-<h4>Text in a modal</h4>  
-<p>You can add some text here.</p>                
-</div>  
-<div class="modal-footer">  
-<a href="#" class="btn btn-success">Call to action</a>  
-<a href="#" class="btn" data-dismiss="modal">Close</a>  
-</div>  
+
+<div id="signup-form" class="modal hide fade in">
+	<div class="modal-body"> 
+		<form class="form-horizontal">
+		  <fieldset>
+		    <div class="control-group">
+		      <label class="control-label" for="input01">First Name</label>
+		      <div class="controls">
+		        <input type="text" class="input-xlarge" id="input01">
+		      </div>
+		    </div>
+		    <div class="control-group">
+		      <label class="control-label" for="input02">Last Name</label>
+		      <div class="controls">
+		        <input type="text" class="input-xlarge" id="input02">
+		      </div>
+		    </div>
+		    <div class="control-group">
+		      <label class="control-label" for="input03">Email</label>
+		      <div class="controls">
+		        <input type="text" class="input-xlarge" id="input03">
+		      </div>
+		    </div>
+		    <div class="control-group">
+		      <label class="control-label" for="input04">Password</label>
+		      <div class="controls">
+		        <input type="password" class="input-xlarge" id="input04">
+		      </div>
+		    </div>
+		    <div class="control-group">
+		      <label class="control-label" for="input05">Retype Password</label>
+		      <div class="controls">
+		        <input type="password" class="input-xlarge" id="input05">
+		      </div>
+		    </div>
+		  </fieldset>
+		</form> 
+	</div> 
+	<div class="modal-footer">  
+		<a href="#" class="btn btn-success">Sign up</a>  
+		<a href="#" class="btn" data-dismiss="modal">Close</a>  
+	</div>  
 </div> 
