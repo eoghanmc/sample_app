@@ -7,23 +7,47 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/eoghanmc/Desktop/Everyface/desktop/example.rb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 187.0,
+		"height": 107.0,
 		"selected_items":
 		[
 			[
+				"ssRsp",
+				"Set Syntax: RSpec"
+			],
+			[
+				"ssr",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"",
+				"About"
+			],
+			[
 				"ssror",
 				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
 			]
 		],
-		"width": 503.0
+		"width": 504.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -36,6 +60,18 @@
 	},
 	"file_history":
 	[
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/spec/requests/static_pages_spec.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/layouts/application.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/helpers/application_helper.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/contact.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/config/routes.rb",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/public/index.html",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/public/hello.html",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/Gemfile",
+		"/Users/eoghanmc/Desktop/Everyface/web/sample_app/.gitignore",
 		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/controllers/application_controller.rb",
 		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/models/micropost.rb",
 		"/Users/eoghanmc/Desktop/Everyface/web/demo_app/app/controllers/users_controller.rb",
@@ -75,6 +111,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\n"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -84,6 +121,38 @@
 	},
 	"groups":
 	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/eoghanmc/Desktop/Everyface/desktop/example.rb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
 		{
 			"sheets":
 			[
@@ -107,11 +176,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -121,16 +197,76 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0
 	},
-	"save_all_on_build": true,
+	"save_all_on_build": false,
 	"select_file":
 	{
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"appl",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"static",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"abou",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"hom",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"stati",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"stat",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				".g",
+				".gitignore"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
 			[
 				"user_c",
 				"app/controllers/users_controller.rb"
@@ -156,10 +292,6 @@
 				"app/controllers/microposts_controller.rb"
 			],
 			[
-				"rou",
-				"config/routes.rb"
-			],
-			[
 				"user.rb",
 				"app/models/user.rb"
 			],
@@ -177,10 +309,6 @@
 			],
 			[
 				"ge",
-				"Gemfile"
-			],
-			[
-				"gem",
 				"Gemfile"
 			]
 		],
