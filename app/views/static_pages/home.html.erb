@@ -1,58 +1,35 @@
-<div class="center hero-unit">
-	<h1>Welcome to the Sample App</h1>
-	<p>
-		This is the home page for the
-		<a href="http://railstutorial.org">Ruby on Rails Tutorial</a>
-		sample application.
-	</p>
+<% if signed_in? %>
 
-	<%= link_to "Sign up now!", signup_path, class: 'btn btn-large btn-primary' %>
+	<div class="row">
+		<aside class="span4">
+			<section>
+				<%= render 'shared/user_info' %>
+			</section>
+			<section>
+				<%= render 'shared/micropost_form' %>
+			</section>
+		</aside>
+		<div class="span8">
+			<h3>Micropost Feed</h3>
+			<%= render 'shared/feed' %>
+		</div>
+	</div>
 
-	<a class="btn" data-toggle="modal" href="#signup-form" >Launch Modal</a>
-</div>
+<% else %>
 
-<%= link_to image_tag('rails.png', alt: 'Rails'), 'google.com' %>
+	<div class="center hero-unit">
+		<h1>Welcome to the Sample App</h1>
+		<p>
+			This is the home page for the
+			<a href="http://railstutorial.org">Ruby on Rails Tutorial</a>
+			sample application.
+		</p>
 
+		<%= link_to "Sign up now!", signup_path, class: 'btn btn-large btn-primary' %>
 
-<div id="signup-form" class="modal hide fade in">
-	<div class="modal-body"> 
-		<form class="form-horizontal">
-		  <fieldset>
-		    <div class="control-group">
-		      <label class="control-label" for="input01">First Name</label>
-		      <div class="controls">
-		        <input type="text" class="input-xlarge" id="input01">
-		      </div>
-		    </div>
-		    <div class="control-group">
-		      <label class="control-label" for="input02">Last Name</label>
-		      <div class="controls">
-		        <input type="text" class="input-xlarge" id="input02">
-		      </div>
-		    </div>
-		    <div class="control-group">
-		      <label class="control-label" for="input03">Email</label>
-		      <div class="controls">
-		        <input type="text" class="input-xlarge" id="input03">
-		      </div>
-		    </div>
-		    <div class="control-group">
-		      <label class="control-label" for="input04">Password</label>
-		      <div class="controls">
-		        <input type="password" class="input-xlarge" id="input04">
-		      </div>
-		    </div>
-		    <div class="control-group">
-		      <label class="control-label" for="input05">Retype Password</label>
-		      <div class="controls">
-		        <input type="password" class="input-xlarge" id="input05">
-		      </div>
-		    </div>
-		  </fieldset>
-		</form> 
-	</div> 
-	<div class="modal-footer">  
-		<a href="#" class="btn btn-success">Sign up</a>  
-		<a href="#" class="btn" data-dismiss="modal">Close</a>  
-	</div>  
-</div> 
+		<a class="btn" data-toggle="modal" href="#signup-form" >Launch Modal</a>
+	</div>
+
+	<%= link_to image_tag('rails.png', alt: 'Rails'), 'google.com' %>
+
+<% end %>
